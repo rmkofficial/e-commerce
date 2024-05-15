@@ -1,9 +1,15 @@
-
+import "./App.css";
+import PageContainer from "./container/PageContainer";
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div>e-commerce</div>
-  )
-}
+    <div>
+      <PageContainer>
+        <Header />
+      </PageContainer>
+    </div>
+  );
+};
 
-export default App
+export default App;
